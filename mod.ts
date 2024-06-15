@@ -28,6 +28,7 @@ export interface Tokenator<TokTy extends string> {
 /**
  * `tokenator` is quick & easy HMAC
  *
+ * @example
  * ```typescript
  * import tokenator from "https://deno.land/x/tokenator/mod.ts";
  * import memStore from "https://deno.land/x/tokenator/mem.ts";
