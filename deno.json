@@ -1,0 +1,12 @@
+{
+  "name": "@enva2712/tokenator",
+  "version": "0.1.0",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./kv": "./src/kv.ts",
+    "./mem": "./src/mem.ts",
+    "./cave": "./src/cave.ts"
+  },
+  "tasks": { "dev": "deno test --watch --unstable-kv" },
+  "license": "MIT"
+}
