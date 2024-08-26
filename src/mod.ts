@@ -1,7 +1,7 @@
 import {
   decodeBase64Url as un64,
   encodeBase64Url as b64,
-} from "https://deno.land/std@0.224.0/encoding/base64url.ts";
+} from "jsr:@std/encoding@0.224.0/base64url";
 // node did crypto apis cleaner than w3c :(
 
 // TODO: auto-roll secrets (tokenize should support only using secrets newer
